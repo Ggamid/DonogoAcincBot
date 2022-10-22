@@ -7,7 +7,7 @@ from kb_constructor import generate_kb
 from kb_constructor import hi_kb
 import asyncio
 from que_class import all_que
-from wrk_db import check_num_of_que, check_status_of_btn, update_que, add_name, add_phone_number, add_user
+from wrk_db import check_num_of_que, update_que, add_name, add_phone_number, add_user
 
 bot = Bot(botToken)
 dp = Dispatcher(bot)
